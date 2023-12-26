@@ -76,18 +76,6 @@ There are four different projects in this single repo :-
 
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] uncomment the whole html , then open the file in chrome(any) browser and see in console, how code blocks behave
-
-See the [open issues](https://github.com/code-123-sudo/practice/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
