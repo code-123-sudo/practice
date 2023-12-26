@@ -8,7 +8,7 @@
 <h3 align="center">Advance javascript concepts</h3>
 
   <p align="center">
-    go through live examples of advance javascript concepts
+    go through live examples of javascript concepts
     <br />
     <a href="https://github.com/code-123-sudo/practice"><strong>Explore the repository »</strong></a>
     <br />
