@@ -78,13 +78,6 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-after installation , simply ask your question in input text box
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
