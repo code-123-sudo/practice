@@ -67,10 +67,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 There are four different projects in this single repo :-
-1. AdvanceJavascript - Uncomment the code in html file for advanceJavascript.html,open file in browser and see in chrome console
+1. AdvanceJavascript - Uncomment the code in advanceJavascript.html,open file in browser and see in chrome console
 2. JsGame - open file jsgame.html in browser and you can see
-3. Grid - open index.html file in browser and see in chrome console
-4. Bootstrap - open bootstrap.html file in browser and see in chrome console
+3. Grid - open index.html file in browser and see
+4. Bootstrap - open bootstrap.html file in browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
