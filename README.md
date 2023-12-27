@@ -8,7 +8,7 @@
 <h3 align="center">Advance javascript concepts</h3>
 
   <p align="center">
-    go through live examples of advance javascript concepts
+    go through live examples of javascript concepts
     <br />
     <a href="https://github.com/code-123-sudo/practice"><strong>Explore the repository »</strong></a>
     <br />
@@ -54,11 +54,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-### Built With
-
-* [![React][React.js]][React-url]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -71,20 +66,11 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Installation
-
-1. Uncomment the code in html file
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] uncomment the whole html , then open the file in chrome(any) browser and see in console, how code blocks behave
-
-See the [open issues](https://github.com/code-123-sudo/practice/issues) for a full list of proposed features (and known issues).
+There are four different projects in this single repo :-
+1. AdvanceJavascript - Uncomment the code in advanceJavascript.html,open file in browser and see in chrome console
+2. JsGame - open file jsgame.html in browser and you can see
+3. Grid - open index.html file in browser and see
+4. Bootstrap - open bootstrap.html file in browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
