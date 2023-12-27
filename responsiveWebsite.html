@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial;
+	margin: 0;
+}
+.note{
+	width: 100vw;
+	display: flex;
+	background: yellow;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-weight: 600;
+}
+.topContentDiv{
+	background: #1abc9c;
+	width: 100vw;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topContentTextDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.topContentText1{
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+}
+.topContentText2{
+	color:white;
+	font-size:20px;
+	padding: 20px;
+	font-weight: 300;
+}
+.topContentInnerText{
+	font-weight: 600;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	background: #333;
+	width: 100vw;
+}
+.link{
+	height: 50px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:0;
+	color: white;
+}
+.link:hover{
+	background: #d3d3d3;
+	color: black;
+	cursor: pointer;
+}
+.contentBox{
+	display: flex;
+	flex-direction: row;
+}
+.aboutMe{
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+.aboutMeImage{
+	height: 200px;
+	background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.moreTextImage{
+	height: 60px;
+	background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.titleImage{
+	height:200px;
+	width: 100%;
+	background-color: #aaa;
+	padding: 20px;
+}
+.titleHeading{
+	display: flex;
+	flex-direction: column;
+	width: 60vw;
+	padding: 20px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #d3d3d3;
+	height: 130px;
+	width : 100vw;
+}
+@media screen and (max-width: 500px) {
+  .header {   
+     flex-direction: column;
+  }
+  .link{
+	 height: 50px;
+	 width: 100vw;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 color: white;
+	}
+	.link:hover{
+	  background: #d3d3d3;
+	  color: black;
+	  cursor: pointer;
+	}
+	.contentBox{
+	  flex-direction: column;
+	}
+	.titleHeading{
+		width: 100vw;
+	}
+	.aboutMe{
+		width: 100vw;
+	}
+}
+</style>
+</head>
+<body>
+	<!-- note  -->
+	
+	<div class="note">Resize the browser to see the responsive effect</div>
+	
+	<!-- top content div -->
+	
+	<div class="topContentDiv">
+		<div class="topContentTextDiv">
+			<div class="topContentText1">My Website</div>
+			<div class="topContentText2">With a <span class="topContentInnerText">flexible</span> layout.</div>
+		</div>
+	</div>
+
+	<!-- header -->
+	<div class="header">
+		<div class="link">Link</div>
+		<div class="link">Link</div>
+		<div class="link">Link</div>
+		<div class="link">Link</div>
+	</div>
+
+	<div class="contentBox">
+		<!-- about Me div -->
+
+		<div class="aboutMe">
+			<h2>About Me</h2>
+			<h5>Photo of me:</h5>
+			<div class="aboutMeImage">Image</div>
+			<p class="photoBottomText">Some text about me in culpa qui officia deserunt mollit anim..</p>
+			<h3>More Text</h3>
+			<p class="moreSubText">Lorem ipsum dolor sit ame.</p>
+			<div class="moreTextImage">Image</div>
+			<br>
+			<div class="moreTextImage">Image</div>
+			<br>
+			<div class="moreTextImage">Image</div>
+			<br>
+		</div>
+
+		<!-- title div -->
+		<div class="titleHeading">
+			<h2>TITLE HEADING</h2>
+			<h5>Title description, Dec 7, 2017</h5>
+			<div class="titleImage">Image</div>
+			<p>Some text</p>
+			<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+			<br>
+			<h2>TITLE HEADING</h2>
+			<h5>Title description, Dec 7, 2017</h5>
+			<div class="titleImage">Image</div>
+			<p>Some text</p>
+			<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+			<br>
+		</div>
+	</div>
+	<div class="footer">
+		<h2>Footer</h2>
+	</div>
+
+
+</body>
+</html>
+
